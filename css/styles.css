@@ -1,0 +1,154 @@
+body{
+  font-family: "Montserrat-Black", sans-serif;  
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+#title{
+  color: white;
+  background-color: #ff4d68;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h3{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.apple{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 5px;
+  margin-right: 5px;    
+}
+
+.android{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+
+.title-img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: relative;
+  left: 30%;
+  z-index: 1;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color:  #fff;
+  position: relative;
+}
+
+.icons{
+  color: #ef8172;
+  margin: 0 0 20px 0;
+}
+
+.icons:hover{
+  color: #ff4d68;
+  cursor: pointer;
+}
+
+.feat-text{
+  color: #8F8F8F;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  margin: 10 0 20px 0;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-img:hover{
+  box-shadow: 0 6px 20px rgb(36, 22, 22);
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+
+#cta{
+  background-color: #ff4d68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500px;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons{
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
